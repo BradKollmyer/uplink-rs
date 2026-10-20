@@ -3,6 +3,7 @@ module storj-uplink-interop
 go 1.25.0
 
 require (
+	github.com/jtolio/noiseconn v0.0.0-20231127013910-f6d9ecbf1de7
 	storj.io/common v0.0.0-20260818140313-d38275a3768b
 	storj.io/uplink v1.14.5
 )
@@ -11,8 +12,7 @@ require (
 	github.com/calebcase/tmpfile v1.0.3 // indirect
 	github.com/flynn/noise v1.1.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/jtolio/noiseconn v0.0.0-20231127013910-f6d9ecbf1de7 // indirect
-	github.com/klauspost/compress v1.17.7 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/quic-go/quic-go v0.60.0 // indirect
 	github.com/spacemonkeygo/monkit/v3 v3.0.25-0.20251022131615-eb24eb109368 // indirect
