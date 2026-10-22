@@ -1040,7 +1040,7 @@ dependencies = [
  "elliptic-curve",
  "primefield",
  "primeorder",
- "sha2 0.11.0",
+ "sha2 0.11.1",
 ]
 
 [[package]]
@@ -1584,9 +1584,9 @@ dependencies = [
 
 [[package]]
 name = "sha2"
-version = "0.11.0"
+version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "446ba717509524cb3f22f17ecc096f10f4822d76ab5c0b9822c5f9c284e825f4"
+checksum = "47d7069beb7d6ac7b9acd1039986e73443f24234f41074da099d6f994ac9ad19"
 dependencies = [
  "cfg-if",
  "cpufeatures 0.3.1",
@@ -1695,7 +1695,7 @@ dependencies = [
  "prost-types",
  "rand",
  "rustls",
- "sha2 0.11.0",
+ "sha2 0.11.1",
  "storj-access",
  "storj-ec",
  "storj-encryption",
@@ -1716,7 +1716,7 @@ dependencies = [
  "hex",
  "hmac",
  "prost",
- "sha2 0.11.0",
+ "sha2 0.11.1",
  "storj-encryption",
  "zeroize",
 ]
@@ -1740,7 +1740,7 @@ dependencies = [
  "crypto_secretbox",
  "hex",
  "hmac",
- "sha2 0.11.0",
+ "sha2 0.11.1",
  "zeroize",
 ]
 
@@ -1764,7 +1764,7 @@ dependencies = [
  "quinn",
  "rcgen",
  "rustls",
- "sha2 0.11.0",
+ "sha2 0.11.1",
  "snow",
  "socket2",
  "thiserror",
@@ -1806,7 +1806,7 @@ dependencies = [
  "prost-types",
  "rand",
  "rustls",
- "sha2 0.11.0",
+ "sha2 0.11.1",
  "storj-access",
  "storj-ec",
  "storj-encryption",
